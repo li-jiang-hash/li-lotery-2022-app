@@ -1,0 +1,177 @@
+[
+	{
+		"id": 1,
+		"name": "侯旭懿",
+		"avatar": "./src/assets/personJsonImg/侯旭懿.jpg"
+	},
+	{
+		"id": 2,
+		"name": "刘玉龙",
+		"avatar": "./src/assets/personJsonImg/刘玉龙.jpg"
+	},
+	{
+		"id": 3,
+		"name": "吴晓娜",
+		"avatar": "./src/assets/personJsonImg/吴晓娜.jpg"
+	},
+	{
+		"id": 4,
+		"name": "宋佳豪",
+		"avatar": "./src/assets/personJsonImg/宋佳豪.jpg"
+	},
+	{
+		"id": 5,
+		"name": "宋晨",
+		"avatar": "./src/assets/personJsonImg/宋晨.jpg"
+	},
+	{
+		"id": 6,
+		"name": "小党同学",
+		"avatar": "./src/assets/personJsonImg/小党同学.jpg"
+	},
+	{
+		"id": 7,
+		"name": "张冰洋",
+		"avatar": "./src/assets/personJsonImg/张冰洋.jpg"
+	},
+	{
+		"id": 8,
+		"name": "张帅",
+		"avatar": "./src/assets/personJsonImg/张帅.jpg"
+	},
+	{
+		"id": 9,
+		"name": "张锦雨",
+		"avatar": "./src/assets/personJsonImg/张锦雨.jpg"
+	},
+	{
+		"id": 10,
+		"name": "徐三雨",
+		"avatar": "./src/assets/personJsonImg/徐三雨.jpg"
+	},
+	{
+		"id": 11,
+		"name": "景玉河",
+		"avatar": "./src/assets/personJsonImg/景玉河.jpg"
+	},
+	{
+		"id": 12,
+		"name": "李江",
+		"avatar": "./src/assets/personJsonImg/李江.jpg"
+	},
+	{
+		"id": 13,
+		"name": "李闯",
+		"avatar": "./src/assets/personJsonImg/李闯.jpg"
+	},
+	{
+		"id": 14,
+		"name": "梁聪聪",
+		"avatar": "./src/assets/personJsonImg/梁聪聪.jpg"
+	},
+	{
+		"id": 15,
+		"name": "熊一恒",
+		"avatar": "./src/assets/personJsonImg/熊一恒.jpg"
+	},
+	{
+		"id": 16,
+		"name": "牛煜鑫",
+		"avatar": "./src/assets/personJsonImg/牛煜鑫.jpg"
+	},
+	{
+		"id": 17,
+		"name": "王佳君",
+		"avatar": "./src/assets/personJsonImg/王佳君.jpg"
+	},
+	{
+		"id": 18,
+		"name": "王克勇",
+		"avatar": "./src/assets/personJsonImg/王克勇.jpg"
+	},
+	{
+		"id": 19,
+		"name": "王新蕊",
+		"avatar": "./src/assets/personJsonImg/王新蕊.jpg"
+	},
+	{
+		"id": 20,
+		"name": "王明辉",
+		"avatar": "./src/assets/personJsonImg/王明辉.jpg"
+	},
+	{
+		"id": 21,
+		"name": "王标",
+		"avatar": "./src/assets/personJsonImg/王标.jpg"
+	},
+	{
+		"id": 22,
+		"name": "赵文举",
+		"avatar": "./src/assets/personJsonImg/赵文举.jpg"
+	},
+	{
+		"id": 23,
+		"name": "路世龙",
+		"avatar": "./src/assets/personJsonImg/路世龙.jpg"
+	},
+	{
+		"id": 24,
+		"name": "郭一凡",
+		"avatar": "./src/assets/personJsonImg/郭一凡.jpg"
+	},
+	{
+		"id": 25,
+		"name": "郭志棚",
+		"avatar": "./src/assets/personJsonImg/郭志棚.jpg"
+	},
+	{
+		"id": 26,
+		"name": "郭童童",
+		"avatar": "./src/assets/personJsonImg/郭童童.jpg"
+	},
+	{
+		"id": 27,
+		"name": "阮振宇",
+		"avatar": "./src/assets/personJsonImg/阮振宇.jpg"
+	},
+	{
+		"id": 28,
+		"name": "陈军星",
+		"avatar": "./src/assets/personJsonImg/陈军星.jpg"
+	},
+	{
+		"id": 29,
+		"name": "陈政阳",
+		"avatar": "./src/assets/personJsonImg/陈政阳.jpg"
+	},
+	{
+		"id": 30,
+		"name": "陈文静",
+		"avatar": "./src/assets/personJsonImg/陈文静.jpg"
+	},
+	{
+		"id": 31,
+		"name": "陈铁戈",
+		"avatar": "./src/assets/personJsonImg/陈铁戈.jpg"
+	},
+	{
+		"id": 32,
+		"name": "雷贺杨",
+		"avatar": "./src/assets/personJsonImg/雷贺杨.jpg"
+	},
+	{
+		"id": 33,
+		"name": "马航航",
+		"avatar": "./src/assets/personJsonImg/马航航.jpg"
+	},
+	{
+		"id": 34,
+		"name": "黄文宇",
+		"avatar": "./src/assets/personJsonImg/黄文宇.jpg"
+	},
+	{
+		"id": 35,
+		"name": "秦鑫",
+		"avatar": "./src/assets/personJsonImg/秦鑫.jpg"
+	}
+]
