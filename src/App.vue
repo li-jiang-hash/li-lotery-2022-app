@@ -4,7 +4,6 @@
     <audio ref="music" preload="auto" loop :src="musicFile" />
     <audio ref="bgm" preload="auto" loop :src="bgmFile" />
 
-    <!-- 背景装饰图片 -->
     <div class="heng-fu">
       <el-image :src="hengFuImg" />
     </div>
