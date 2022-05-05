@@ -16,7 +16,7 @@ watch(musicOpen, () => {
     if (bgm.value) bgm.value.pause()
     ElMessage({
       message: '抽奖音效已关闭',
-      type: 'error'
+      type: 'success'
     })
   }
 })
