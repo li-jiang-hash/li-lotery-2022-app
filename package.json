@@ -2,9 +2,9 @@
   "name": "lottery-app",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vite",
+    "serve": "vite",
     "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "dev": "vite preview"
   },
   "dependencies": {
     "element-plus": "^1.0.2-beta.35",
