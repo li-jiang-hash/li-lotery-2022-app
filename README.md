@@ -1,15 +1,14 @@
-# 抽奖小应用
+# 所需配置(*为必备)
+*node v16.14.2
+*vue @vue/cli 5.0.4
+yarn 1.22.18
+# 所用技术
 
 - Vue3
 - Vite2
 - Typescript
 - Element+
 
-# 运行
-```shell
-# 安装依赖
-yarn
-
 # 启动
-yarn dev
+npm run serve
 ```
