@@ -111,7 +111,7 @@
         >
           <div class="lottery-record-content">
             <el-avatar :size="50" :src="record.avatar" />
-            <div style="margin-top: 20px">
+            <div style="margin-left: 20px">
               <span style="font-weight: bold">{{ record.name }}</span> 抽中
               <span style="font-weight: bold">{{ record.prize }}</span>
             </div>
