@@ -68,7 +68,7 @@
     </div>
 
     <!-- 奖品清单侧边栏 -->
-    <el-drawer v-model="prizeDrawer" title="奖品清单" size="400">
+    <el-drawer v-model="prizeDrawer" title="选择当前抽取的奖品" size="400">
       <div style="padding: 0 20px 20px 20px">
         <el-select v-model="currentPrizeTitle" placeholder="请选择抽取的奖品">
           <el-option
@@ -111,7 +111,7 @@
         >
           <div class="lottery-record-content">
             <el-avatar :size="50" :src="record.avatar" />
-            <div style="margin-left: 20px">
+            <div style="margin-top: 20px">
               <span style="font-weight: bold">{{ record.name }}</span> 抽中
               <span style="font-weight: bold">{{ record.prize }}</span>
             </div>
@@ -181,17 +181,11 @@ export default defineComponent({
                 message: `奖品 【${prePrize}】 已经抽完，开始抽取奖品 【${
                   prizes[currentPrizeIndex.value].title
                 }】`,
-                position: 'top-left',
-                type: 'info'
+                position: 'top-right',
+                type: 'success'
               })
             } else {
               lotteryFinish.value = true
-              ElNotification({
-                title: '消息提醒',
-                message: '奖品全部抽完，抽奖已经结束',
-                position: 'top-left',
-                type: 'warning'
-              })
             }
           }
         }
@@ -238,7 +232,7 @@ export default defineComponent({
     watch(lotteryRunning, () => {
       if (lotteryRunning.value) {
         ElMessage.success({
-          message: `正在抽取 ${currentPrize.value.text} / ${currentPrize.value.title}`,
+          message: `Admin正在抽取 ${currentPrize.value.text} / ${currentPrize.value.title}`,
           type: 'success'
         })
 
@@ -252,12 +246,18 @@ export default defineComponent({
      * 抽奖按钮点击
      */
     const lotteryBtnClick = () => {
+      if (lotteryRunning.value) {
+        ElMessage.success({
+          message: currentName.value + '   抽中    ' + currentPrize.value.title,
+          type: 'success'
+        })
+      }
       if (lotteryFinish.value) {
         ElNotification({
           title: '消息提醒',
           message: '奖品全部抽完，抽奖已经结束',
-          position: 'top-left',
-          type: 'warning'
+          position: 'top-right',
+          type: 'error'
         })
       } else {
         lotteryRunning.value = !lotteryRunning.value
@@ -353,7 +353,7 @@ body {
     height: 100vh;
     background-color: #f39f86;
     background-image: linear-gradient(315deg, #bbffaa -25%, #f9d976 75%);
-    &::selection {
+    ::selection {
       background-color: #bbffaa;
     }
   }
